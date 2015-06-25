@@ -1,0 +1,11 @@
+#logo{
+	width: 200px;
+}
+ul{
+	list-style-type: none;
+}
+#sidebar{
+	background-color: #E6E9E7;
+	padding: 60px 30px 30px;
+	margin-top: 40px;
+}
