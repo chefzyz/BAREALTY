@@ -3,9 +3,51 @@
 }
 ul{
 	list-style-type: none;
+	font-family: 'Roboto Condesed', Georgia;
+	font-weight: bold;
 }
 #sidebar{
-	background-color: #E6E9E7;
-	padding: 60px 30px 30px;
+	background-color:#E6E9E7;
 	margin-top: 40px;
+	width: 200px;	
+	min-height: 200px;
+	float: left;
+	border-radius: 6px;
+	border-top-style: solid;
+	border-bottom-style: solid;
 }
+
+ a{
+ 	text-decoration: none;
+ 	color: black;
+
+ }
+
+ nav a:hover{
+ 	color: green;
+ }
+
+ footer{
+ 	font-size: 10px;
+ 	text-align: center;
+ }
+
+ #wrapper{
+ 	/*float: left;*/
+ 	padding: 50px;
+ 	margin-top: -25px;
+ 	padding-right: 10px;
+ 	font-family: 'Roboto Condesed', Georgia;
+ }
+
+ body{
+ 	background-color: #EACE95;
+ }
+
+ #About{
+ 	text-align: center;
+ }
+
+ #homepage{
+ 	width: 950px;
+ }
