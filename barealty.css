@@ -3,8 +3,9 @@
 }
 ul{
 	list-style-type: none;
-	font-family: 'Roboto Condesed', Georgia;
+	font-family: 'Roboto Condensed', Georgia;
 	font-weight: bold;
+	font-size: 16px;
 }
 #sidebar{
 	background-color:#E6E9E7;
@@ -37,7 +38,8 @@ ul{
  	padding: 50px;
  	margin-top: -25px;
  	padding-right: 10px;
- 	font-family: 'Roboto Condesed', Georgia;
+ 	font-family: 'Roboto Condensed', Georgia;
+ 	font-size: 18px;
  }
 
  body{
