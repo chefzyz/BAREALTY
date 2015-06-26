@@ -1,0 +1,68 @@
+#logo{
+	width: 200px;
+}
+ul{
+	list-style-type: none;
+	font-family: 'Roboto Condensed', Georgia;
+	font-weight: bold;
+	font-size: 16px;
+}
+#sidebar{
+	background-color:#E6E9E7;
+	margin-top: 40px;
+	width: 200px;	
+	min-height: 200px;
+	float: left;
+	border-radius: 6px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+}
+
+ a{
+ 	text-decoration: none;
+ 	color: black;
+
+ }
+
+ #sell{
+ 	color: red;
+ 	text-decoration: underline;
+ }
+
+ #sell:hover{
+ 	color: green;
+ }
+
+ nav a:hover{
+ 	color: green;
+ }
+
+ footer{
+ 	font-size: 10px;
+ 	text-align: center;
+ }
+
+ #wrapper{
+ 	/*float: left;*/
+ 	padding: 50px;
+ 	margin-top: -25px;
+ 	padding-right: 10px;
+ 	font-family: 'Roboto Condensed', Georgia;
+ 	font-size: 18px;
+ }
+
+ body{
+ 	background-color: #EACE95;
+ }
+
+ #About{
+ 	text-align: center;
+ }
+
+ #homepage{
+ 	width: 1050px;
+ }
+
+ h1,h2{
+ 	font-family: 'Signika Negative', serif;
+ }
