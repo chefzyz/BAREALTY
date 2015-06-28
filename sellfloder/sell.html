@@ -2,17 +2,38 @@
 <html>
   <head>
   	<meta charset="UTF-8">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jquery.cycle.all.js"></script>
-  	<script type="text/javascript" src="js/resume_pause.js"></script>
+    <script type="text/javascript" src="jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="jquery.cycle.all.js"></script>
+  	<script type="text/javascript">
+       $(function() {
+
+            //this helps the resume and pause buttons to work//
+  			    $('#play').click(function() {$('#slider').cycle('resume'); return false; 
+        });
+  			   $('#pause').click(function() {$('#slider').cycle('pause');return false; 
+        });
+  			$('#slider').cycle ({
+
+  				fx:  'scrollHorz',
+  				next:   '#next',
+  				prev:   '#prev',
+          pager:     '#pager', 
+  				timeout:    3000,
+  				speed:     900
+  			});
+    });
+
+  		
+  		
+  	</script>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
-  	<link rel="stylesheet" type="text/css" href="css/find.css">
+  	<link rel="stylesheet" type="text/css" href="sell.css">
   	<title> Buy Properties</title>
  
   </head>
   <body>
     <div id ='sidebar'>
-       <a href="index"><img id = "logo" src ="images/logo.jpg">
+       <img id = "logo" src ="imgs/logo.jpg">
     <br>
     <br>
     <br>
@@ -20,31 +41,31 @@
     <br>
       <nav id = "sidenav">
     <ul>
-      <li><a href="index#About">About</a></li>
+      <li><a href="#About">About</a></li>
     <br>
     <br>
     <br>
-    <li><a href="find">Find Properties</a></li>
+    <li><a href="#">Find Properties</a></li>
     <br>
     <br>
     <br>
-    <li><a href="sell">Sell Properties</a></li>
+    <li><a href="#">Sell Properties</a></li>
     <br>
     <br>
     <br>
-    <li><a href="contact">Contact US</a></li>
+    <li><a href="#">Contact US</a></li>
     <br>
     <br>
     <br>
-    <li><a href="https://twitter.com/barealty" id="twitter-button" target="_blank"><img src="images/twitter.png"></a></li>
+    <li><a href="https://twitter.com/barealty" id="twitter-button" target="_blank"><img src="imgs/twitter.png"></a></li>
     <br>
     <br>
     <br>
-    <li><a href="https://facebook.com/barealty" id="facebook-button" target="_blank"><img src="images/facebook.png"></a></li>
+    <li><a href="https://facebook.com/barealty" id="facebook-button" target="_blank"><img src="imgs/facebook.png"></a></li>
     <br>
     <br>
     <br>
-    <li><a href="https://linkedin.com/barealty" id="linkedin-button" target="_blank"><img src="images/linkedin.png"></a></li>
+    <li><a href="https://linkedin.com/barealty" id="linkedin-button" target="_blank"><img src="imgs/linkedin.png"></a></li>
     </ul>
     </nav>
     </div>
@@ -62,7 +83,7 @@
        	  	<div class="items">
 
 
-       	  		<img src="images/pic1.jpeg">
+       	  		<img src="imgs/pic1.jpeg">
        	  		<div class="info">
        	  			<h2> classic faux brick exterior</h2>
        	  			<p> 2 bedrooms and 1.5 bathrooms</p>
@@ -71,7 +92,7 @@
        	  	</div><!-- end of div items-->
 
        	  	<div class="items">
-       	  		<img src="images/pic 2.jpg">
+       	  		<img src="imgs/pic 2.jpg">
        	  		<div class="info">
        	  			<h2> New England style house</h2>
        	  			<p> 4 bedrooms and 2.5 bathrooms, with a beautiful pool and great backyard.</p>
@@ -80,7 +101,7 @@
        	  	</div><!-- end of div items-->
 
        	  	<div class="items">
-       	  		<img src="images/pic 3.JPG">
+       	  		<img src="imgs/pic 3.JPG">
        	  		<div class="info">
        	  			<h2> Classic American Home</h2>
        	  			<p> 3 bedrooms and 2 bathrooms</p>
@@ -90,7 +111,7 @@
        	  	</div><!-- end of div items-->
 
        	  	<div class="items">
-       	  		<img src="images/pic 4.jpeg">
+       	  		<img src="imgs/pic 4.jpeg">
        	  		<div class="info">
        	  			<h2> The extended family home</h2>
        	  			<p> 6 bedroom and 3.5 bathrooms</p>
@@ -100,7 +121,7 @@
        	  	</div><!-- end of div items--> 
 
        	  	<div class="items">
-       	  		<img src="images/pic 5.jpg">
+       	  		<img src="imgs/pic 5.jpg">
        	  		<div class="info">
        	  			<h2> The Cottage Home</h2>
        	  			<p> 3 bedrooms and 1.5 bathrooms</p>
@@ -109,7 +130,7 @@
        	  	</div><!-- end of div items-->
 
        	  	<div class="items">
-       	  		<img src="images/pic 6.jpg">
+       	  		<img src="imgs/pic 6.jpg">
        	  		<div class="info">
        	  			<h2> The Doll House</h2>
        	  			<p> 3.5 bedroom and 2.5 bathrooms</p>
@@ -119,7 +140,7 @@
        	  	</div><!-- end of div items-->
 
        	  	<div class="items">
-       	  		<img src="images/pic7.jpg">
+       	  		<img src="imgs/pic7.jpg">
        	  		<div class="info">
        	  			<h2> The Modern Home</h2>
        	  			<p> two bedroom and 1.5 bathrooms</p>
@@ -128,7 +149,7 @@
        	  	</div><!-- end of div items-->
 
        	  	<div class="items">
-       	  		<img src="images/pic 8.jpg">
+       	  		<img src="imgs/pic 8.jpg">
        	  		<div class="info">
        	  			<h2> The Inspired Frank lloyd wright home</h2>
        	  			<p> two bedroom and 1.5 bathrooms</p>
